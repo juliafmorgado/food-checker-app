@@ -13,7 +13,7 @@ function getFetch() {
         .then(res => res.json()) // parse response as JSON
         .then(data => { //use JSON data
             console.log(data)
-            if (data.status === 1) {  //If product is valid. Status is a specidif property in the object.
+            if (data.status === 1) {  //If product is valid. Status is a specific property in the object.
                 const item = new ProductInfo(data.product)  //call Constructor if product is found and it will build a new product/object with the assigned properties(name, ingredient, label and image)
                 // item.testCall()//calling the method to test it
                 item.showInfo() //Call the showInfo on the product
