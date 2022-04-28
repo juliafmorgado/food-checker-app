@@ -22,4 +22,4 @@
 
 <h2>Optimizations</h2>
 
-Modifiy the app for other food concerns.
+Modifiy the app for other food concerns and have the ability to scan barcodes.
