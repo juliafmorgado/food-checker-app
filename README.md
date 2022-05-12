@@ -1,6 +1,6 @@
 <h1 align='center'> My Vegetarian Scanner | <a href='https://juliafmorgado.github.io/food-checker-app/'>Visit here!</a></h1>
 
-<img src='https://github.com/juliafmorgado/food-checker-app/blob/main/vegetarian-scanner.gif' width='100%'>
+<img src='https://github.com/juliafmorgado/food-checker-app/blob/main/food-checker.gif' width='100%'>
 
 <h3 align='center'> App that tells whether an item is vegetarian or not!</h3>
 
