@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener('click', getFetch)
 function getFetch() {
     let inputVal = document.getElementById('barcode').value
     if (inputVal.length !== 12) {
-        alert(`Please ensure the barcode is 12 characters`)
+        alert(`Please ensure the barcode is 12 characters, should be an UPC barcode`)
         return; //exit the entire function
     }
 
