@@ -4,7 +4,7 @@ name: Create new message
 file_version: 1.0.2
 app_version: 0.10.0-2
 file_blobs:
-  js/main.js: 3dda5f3444dbdb5ab846b796dd9ed1c4f0b97327
+  js/main.js: ecbf1e31e53faa81cee2ffc4d577f3718cd38e13
 ---
 
 `📄 js/main.js`Introduction
@@ -13,10 +13,11 @@ This document covers {explain the scope of the document}.
 
 If you want to add a new message, you should change it here:
 
+Testing to see what appears here.
+
 <br/>
 
-
-
+This is the code part where you can add an alert message.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 js/main.js
 ```javascript
@@ -24,7 +25,7 @@ If you want to add a new message, you should change it here:
 ⬜ 3      function getFetch() {
 ⬜ 4          let inputVal = document.getElementById('barcode').value
 🟩 5          if (inputVal.length !== 12) {
-🟩 6              alert(`Please ensure the barcode is 12 characters`)
+🟩 6              alert(`Please ensure the barcode is 12 characters, should be an UPC barcode`)
 🟩 7              return; //exit the entire function
 🟩 8          }
 ⬜ 9      
