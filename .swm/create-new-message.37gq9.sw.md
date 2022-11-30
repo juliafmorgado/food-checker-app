@@ -3,9 +3,34 @@ id: 37gq9
 name: Create new message
 file_version: 1.0.2
 app_version: 0.10.0-2
+file_blobs:
+  js/main.js: 3dda5f3444dbdb5ab846b796dd9ed1c4f0b97327
 ---
 
-`📄 js/main.js`
+`📄 js/main.js`Introduction
+
+This document covers {explain the scope of the document}.
+
+If you want to add a new message, you should change it here:
+
+<br/>
+
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 js/main.js
+```javascript
+⬜ 2      
+⬜ 3      function getFetch() {
+⬜ 4          let inputVal = document.getElementById('barcode').value
+🟩 5          if (inputVal.length !== 12) {
+🟩 6              alert(`Please ensure the barcode is 12 characters`)
+🟩 7              return; //exit the entire function
+🟩 8          }
+⬜ 9      
+⬜ 10         const url = `https://world.openfoodfacts.org/api/v0/product/${inputVal}.json`
+⬜ 11     
+```
 
 <br/>
 
